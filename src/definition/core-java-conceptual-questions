@@ -1,17 +1,56 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+Answer: A programming language is a special language, used by programmers to develop
+        software programs, scripts, or other sets of instructions for computers to execute.
 What jdk contains or composed of and define each components?
+Answer: Components of JDK:
+        1. The Runtime Interpreter: The Java runtime interpreter (java) is a stand-alone version of the
+           Java interpreter built into the HotJava browser. The runtime interpreter provides the support to
+           run Java executable programs in compiled, bytecode format.
+        2. The Compiler: The Java compiler (javac) is used to compile Java source code files into
+           executable Java bytecode classes. In Java, source code files have the extension .java.
+        3. The Applet Viewer: The applet viewer is a tool that serves as a minimal test bed for final
+           release Java applets. You can use the applet viewer to test your programs instead of having to
+           wait for HotJava to support the final release of Java.
+        4. The Debugger: Debugger does the job of debugging the a piece of code.
+        5. The Class File Disassembler: Disassembles class files.
+        6. The Header and Stub File Generator: Generates  header and source files that are needed to
+           implement native methods.
+        7. The Documentation Generator: Generates HTML pages of API documentation from Java source files.
 What is IDE?
+Answer: An IDE stands Integrated Development Environment is a software suite that consolidates the
+        basic tools developers need to write and test software. Typically, an IDE contains a code editor, a
+        compiler or interpreter and a debugger that the developer accesses through a single graphical user
+        interface (GUI).
 What are the IDEs available in the market to support java?
+Answer: Eclipse, Intellij Idea, NetBeans, AndroidStudio, Enide Studio 2014, BlueJ, jEdit,
+        jGRASP, JSource, JDeveloper, DrJava etc.
 Explain the entire java life cycle.
+Answer: Programmer use any text editor to create high level Java text file.This file is saved as a
+        .java file on the disk.Then compile this text file using the Java compiler, which result
+        in a .classfile being created on the disk. The .class file contains the bytecodes.
+        The file is then loaded into memory by the class loader. The bytecode verifier confirms that
+        the bytecodes are valid and not hostile. Finally, the JVM reads the bytecodes in memory and
+        translates them into machine code.
 what is class?
+Answer: Class is a blueprint from which individual objects are created.
+        Classes have data and methods, data represents state and methods behavior. Class is just a logical framework.
+        So, a class is a template for an object and object is an instance of a class
 What is object?
+Answer: Object is an instance of the class and Object is the physical reality.
 What is the entry point of an application?
+Answer: Main method is the entry point of an application.
 Why main is static?
+Answer: In order to call a method need to have a object of that method. As main method
+        is gateway to the java application JVM need to enter into main method in order
+        to execute. Static key word let JVM to call main method without  object.
 Which class is the superclass of all classes?
+Answer: java.lang.object is a superclass of all class. The Object class defined in the java.lang package
+        is called as the superclass for each and every class in Java. The object class is the superclass
+        for every class as Java is completely object oriented.
 What is difference between path and classpath variables?
+Answer: The main difference between PATH and CLASSPATH is that PATH is an environment variable which is used to locate JDK binaries like "java" or "javac" command used to run java program and compile java source file.
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
