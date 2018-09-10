@@ -186,7 +186,7 @@ public class ConnectToSqlDB {
         User user = null;
         try{
             Connection conn = connectToSqlDatabase();
-            String query = "SELECT * FROM Students";
+            String query = "SELECT * FROM STUDENT";
             // create the java statement
             Statement st = conn.createStatement();
             // execute the query, and get a java resultset
@@ -194,11 +194,11 @@ public class ConnectToSqlDB {
             // iterate through the java resultset
             while (rs.next())
             {
-                String name = rs.getString("stName");
                 String id = rs.getString("stID");
+                String name = rs.getString("stname");
                 String dob = rs.getString("stDOB");
                 //System.out.format("%s, %s\n", name, id);
-                user = new User(name,id, dob);
+                user = new User(id,name, dob);
                 list.add(user);
 
             }
